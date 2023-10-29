@@ -1,6 +1,6 @@
 {
   "name": "sails-mysql",
-  "version": "0.12.3",
+  "version": "0.13.0",
   "description": "MySQL adapter for Sails.js",
   "main": "lib/adapter.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "async": "2.0.1",
     "lodash": "3.10.1",
-    "mysql": "2.11.1",
+    "mysql": "^2.18.1",
     "waterline-cursor": "^0.0.7",
     "waterline-errors": "0.10.1",
     "waterline-sequel": "0.6.4"
