@@ -1,7 +1,7 @@
 {
-  "name": "sails-mysql",
+  "name": "sails-mariadb",
   "version": "0.13.0",
-  "description": "MySQL adapter for Sails.js",
+  "description": "MariaDB adapter for Sails.js",
   "main": "lib/adapter.js",
   "scripts": {
     "test": "make test",
@@ -12,7 +12,7 @@
     "url": "git://github.com/balderdashy/sails-mysql.git"
   },
   "keywords": [
-    "mysql",
+    "mariadb",
     "orm",
     "waterline",
     "sails"
@@ -23,7 +23,7 @@
   "dependencies": {
     "async": "2.0.1",
     "lodash": "3.10.1",
-    "mysql": "^2.18.1",
+    "mariadb": "^3.2.2",
     "waterline-cursor": "^0.0.7",
     "waterline-errors": "0.10.1",
     "waterline-sequel": "0.6.4"
